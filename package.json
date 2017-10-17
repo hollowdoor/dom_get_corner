@@ -26,5 +26,16 @@
   "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io)",
   "main": "dist/bundle.js",
   "jsnext:main": "dist/bundle.es.js",
-  "module": "dist/bundle.es.js"
+  "module": "dist/bundle.es.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollowdoor/dom_get_corner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hollowdoor/dom_get_corner/issues"
+  },
+  "homepage": "https://github.com/hollowdoor/dom_get_corner#readme"
 }
