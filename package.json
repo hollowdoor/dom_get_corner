@@ -1,0 +1,30 @@
+{
+  "name": "dom-get-corner",
+  "description": "Get the corner child of a parent element",
+  "keywords": [
+    "DOM",
+    "get",
+    "coordinates"
+  ],
+  "version": "1.0.0",
+  "scripts": {
+    "build": "ebam",
+    "test": "echo \"no test\""
+  },
+  "license": "MIT",
+  "ebam": {
+    "entry": "src/index.js",
+    "transforms": {
+      "dangerousForOf": false,
+      "dangerousTaggedTemplateString": false
+    },
+    "test": {
+      "dest": "test/code.js",
+      "src": "test/src.js"
+    }
+  },
+  "author": "Quentin Engles <hollowdoor99@gmail.com> (https://hollowdoor.github.io)",
+  "main": "dist/bundle.js",
+  "jsnext:main": "dist/bundle.es.js",
+  "module": "dist/bundle.es.js"
+}
