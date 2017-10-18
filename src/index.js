@@ -32,6 +32,7 @@ export default function getCorner(element, dir, {
 
     for(let i=0; i<depth; i++){
         el = parent;
+        if(!parent) return;
         parent = parent.parentNode;
         if(parent === element){
             return el;

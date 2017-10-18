@@ -36,6 +36,7 @@ function getCorner(element, dir, ref){
 
     for(var i$1=0; i$1<depth; i$1++){
         el = parent;
+        if(!parent) { return; }
         parent = parent.parentNode;
         if(parent === element){
             return el;
